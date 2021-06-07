@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    
+    /* In css3 we use rem
+   /* font-size: 9.265em;      ------> 16px = 100% = 1em   and   90px = 5.625em   ---> further it will be multiplied from parent
+   /* font-size: 562.5%;   ------> 100% means 16px , so if we want 90px therefore 90/16=562.5
+   /* margin: 0 auto 0 auto;   margin: 0 auto;  */
+   font-family: 'Sacramento', cursive;
+   margin: 50px auto 0 auto;
+   font-size: 5.625rem;
+   color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+.edit-img{
+    width:45%;
+   
+}
+.skill-row{
+    flex: 1 1 50rem;
+}
+
+
+
+.top-container{
+    background-color: #E4F9F5;
+   
+    padding-top: 100px;
+    
+}
+.middle-container{
+  
+}
+hr{
+    border: dotted #EAF6F6 6px; 
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+   
+}
+.skills{
+
+    width: 70%;
+    margin:  0px auto 70px auto;
+    
+   
+}
+.text{
+  text-align: left;
+  
+}
+.bottom-container{
+   
+}
+.bottom-cloud{
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    margin-top: 0;
+}
